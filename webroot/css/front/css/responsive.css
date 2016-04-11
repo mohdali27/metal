@@ -1,0 +1,149 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+ 
+ 
+/*==========  Mobile First Method  ==========*/
+ 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+ 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+html {
+	font-size: 90%;
+}
+.post .entry-content .author-thumb {
+	left: 35px;
+	top: -25px;
+}
+.team-member .social-icons i {
+	padding: 10px 20px;
+}
+.md-text-center {
+	text-align: center;
+}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+html {
+	font-size: 75%;
+}
+.divider, .parallax {
+  background-attachment: scroll;
+}
+.navbar-nav  .dropdown-menu {
+    left: auto;
+}
+#header-logo {
+	padding: 10px 15px;
+}
+.divider .container {
+}
+.header .navbar-default .navbar-nav > li > a::after {
+	display: none;
+}
+.map {
+	margin-top: 30px;
+}
+.contact-wrapper {
+    padding: 50px 30px;
+}
+.header #header-logo {
+	padding-top: 20px;
+}
+.minimal-layout .header #header-logo {
+	padding-top: 10px;
+}
+.header .navbar-default .navbar-toggle {
+	margin-top: 18px;
+}
+.minimal-layout .header .navbar-default .navbar-toggle {
+	margin-top: 8px;
+}
+.header #header-logo img {
+	height: 30px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+html {
+	font-size: 60%;
+}
+.box-hover-effect {
+	float: none;
+}
+.xs-list-inline-none {
+	margin-left: 0;
+	padding-left: 0;
+}
+#header-logo {
+	padding: 10px 15px;
+}
+#spinner {
+	left: 42%;
+}
+.navbar-default .navbar-toggle {
+	margin-top: 15px;
+	border-radius: 0px;
+}
+#home .display-table p {
+	margin: 15px 0;
+	font-size: 14px;
+}
+.schedule-tab .nav-tabs li a {
+  font-size: 24px;
+}
+.footer-social li a {
+	margin-left: 20px;
+    margin-right: 20px;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+html {
+	font-size: 50%;
+}
+.post > div {
+	width: 100%;
+}
+.schedule-tab .nav-tabs li a {
+	font-size: 18px;
+	padding: 30px 5px;
+}
+.schedule-tab .nav-tabs li a span {
+  font-size: 12px;
+  margin-top: 5px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 319px) {
+html {
+	font-size: 35%;
+}
+}

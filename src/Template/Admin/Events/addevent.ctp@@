@@ -1,0 +1,98 @@
+  <div class="page-content-wrapper ">
+        <div class="content ">
+          <div data-pages="parallax" class="jumbotron">
+            <div class="container-fluid container-fixed-lg sm-p-l-20 sm-p-r-20">
+              <div class="inner" style="transform: translateY(0px); opacity: 1;">
+                <!-- START BREADCRUMB -->
+                <ul class="breadcrumb">
+                  <li>
+                    <a href="<?=HTTP_ROOT?>admin/events">Event</a>
+                  </li>
+                  <li><a class="active" href="#">Add Event</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid container-fixed-lg">
+            <div class="row">
+              <div class="col-md-14">
+                <!-- START PANEL -->
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <div class="panel-title">
+					<h5>
+                      Add Event
+					</h5>  
+                    </div>
+                  </div>
+                  <div class="panel-body">
+                    <form method="post" id="add-event">
+                      <div class="form-group">
+                        <label>Event Title</label>
+                        <input type="text" required="required" class="form-control" name="event_name">
+                      </div>
+					  <!-- <div class="form-group">
+					      <label>Event Date Range</label>
+						  <span class="add-on input-group-addon">
+						  <i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+						  <input type="text" style="width: 100%" id="daterangepicker" class="form-control" value="" name="date_range"/>
+                      </div> -->
+					  <div class="form-group">
+						  <label>Event Date</label>
+						  <div id="date-range" class="input-daterange input-group">
+							  <input type="text" name="start_date" id="start_date" class="input-sm form-control">
+							  <span class="input-group-addon">to</span>
+							  <input type="text" name="end_date" id="end_date" class="input-sm form-control">
+						  </div>
+					  </div>
+					  <div class="form-group">
+					    <label>Event Timing</label>
+					   <div class="row">
+					      
+						  <div class="col-sm-2">
+							<div class="input-group bootstrap-timepicker">
+							  <input type="text" class="form-control" id="start_time" name="start_time">
+							  <span class="input-group-addon"><i class="pg-clock"></i></span>
+							  
+							</div>
+							
+						  </div>
+						  
+						  <div class="col-sm-2">
+							<div class="input-group bootstrap-timepicker">
+							  <input type="text" class="form-control" id="end_time" name="end_time">
+							  <span class="input-group-addon"><i class="pg-clock"></i></span>
+							</div>
+						  </div>
+						</div>
+					   </div>
+					  <div class="form-group">
+						<label>Upload Event Banner</label>
+						<input id="event-banner" type="file" multiple=true name="event_banner">
+					  </div>
+					  <div class="form-group">
+                        <label>Event Location</label>
+                        <textarea name="event_location" class="form-control"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label>Short Description</label>
+                        <textarea name="event_desc" class="form-control" id="shorteditor"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label>Full Description</label>
+                        <textarea name="long_desc" class="form-control" id="editor"></textarea>
+                      </div>
+					  <br>
+					  <div class="form-group">
+					   <button type="submit" class="btn btn-success">Submit</button>
+					  </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+

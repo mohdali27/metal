@@ -1,0 +1,273 @@
+/* --------------------------------------
+@Author: ThemeMascot
+@URL: http://themeforest.net/user/ThemeMascot
+
+COLOR : Brown 
+COLOR CODE: #8D6E63
+----------------------------------------- */
+
+/* text selection color */
+*::-moz-selection {
+	background-color: #8D6E63;
+} 
+::selection {
+	background-color: #8D6E63;
+}
+/* background-color-transparent */
+.bg-theme-colored-transparent {
+	background-color: rgba(141,110,99,0.7) !important;
+}
+.post .entry-meta.meta-absolute {
+	background: rgba(141,110,99,0.9) none repeat scroll 0 0;
+}
+.about-icon:hover .icon {
+	box-shadow: 0 0 0 6px rgba(141,110,99,0.4);
+}
+.header .navbar-dark {
+	background-color: rgba(141,110,99,0.95);
+}
+/* Layeroverlay */
+.layer-overlay.overlay-green::before {
+	background-color: rgba(141,110,99,0.9);
+}
+/* background-color */
+.btn-colored.btn-theme-colored {
+	background: #8D6E63!important;
+}
+.title-icon::before {
+	background: #8D6E63 none repeat scroll 0 0;
+}
+.title-icon::after {
+	background: #8D6E63 none repeat scroll 0 0;
+}
+.menuzord.green .menuzord-menu > li.active > a, 
+.menuzord.green .menuzord-menu > li:hover > a, 
+.menuzord.green .menuzord-menu ul.dropdown li:hover > a,
+.menuzord-menu > li > .megamenu .megamenu-row li:hover > a,
+.menuzord-menu > li > .megamenu .megamenu-row .post a:hover {
+	background: #8D6E63;
+}
+.panel-title a.active::after {
+    background: #8D6E63;
+}
+.pagination li a:hover,
+.pagination li:hover a,
+.pagination li.active a,
+.pagination li.active a:hover {
+	background: none repeat scroll 0 0 #8D6E63;
+}
+ .masonry-items .masonry-item:hover .overlay i {
+	background: #8D6E63 none repeat scroll 0 0;
+}
+.sidebar .search-form .search-button {
+	background: #8D6E63 none repeat scroll 0 0;
+}
+.sidebar-widget .tags a:hover {
+	background: #8D6E63 none repeat scroll 0 0;
+}
+.schedule-tab .nav-tabs li.active a {
+	background: #8D6E63;
+}
+.cd-timeline-block:hover .cd-timeline-img {
+	background: #8D6E63;
+}
+.progress-item .progress-bar {
+	background: #8D6E63;
+}
+.social-icons.icon-theme-colored a {
+	background: #8D6E63;
+}
+.social-icons.icon-theme-colored a:hover {
+	background: #8D6E63;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: #8D6E63;
+}
+.footer .social-icons li a:hover {
+	background: #8D6E63;
+}
+.btn-colored.btn-theme-colored:hover {
+	background: #8d6e53 !important;
+}
+.cssload-loading i {
+	background: #8D6E63;
+}
+.bg-theme-colored {
+	background-color: #8D6E63 !important;
+}
+.about-icon .icon {
+	background-color: #8D6E63;
+}
+.post .entry-content .entry-date {
+	background-color: #8D6E63;
+}
+.team-member .social-icons {
+    background-color: #8D6E63;
+}
+.schedule-box .thumb .overlay a:hover i {
+	background-color: #8D6E63;
+}
+.table-schedule thead tr {
+	background-color:  #8D6E63;
+}
+.zeus .tp-bullet::after {
+	background-color: #8D6E63;
+}
+.footer .footer-widget .social-icons li a:hover {
+	background-color: #8D6E63;
+}
+/* text color */
+.text-theme-colored {
+	color: #8D6E63 !important;
+}
+ul.list li:before {
+	color: #8D6E63;
+}
+.list-default li i {
+	color: #8D6E63;
+}
+.btn-default.btn-theme-colored {
+	color: #8D6E63!important;
+}
+.section-title .sub-title {
+	color: #8D6E63;
+}
+.title-icon [class^="flaticon-"]::after, 
+.title-icon [class^="flaticon-"]::before {
+	color: #8D6E63;
+}
+.funfact .animate-number {
+	color: #8D6E63;
+}
+.pricing-table .table-price {
+	color: #8D6E63;
+}
+.pricing-table .table-list i {
+	color: #8D6E63;
+}
+.horizontal-tab-centered .nav-pills > li > a:hover i, 
+.horizontal-tab-centered .nav-pills > li.active > a i, 
+.horizontal-tab-centered .nav-pills > li.active > a:hover i, 
+.horizontal-tab-centered .nav-pills > li.active > a:focus i {
+	color: #8D6E63; 
+}
+.testimonial-carousel .content .author {
+	color: #8D6E63;
+}
+.twitter-widget .twitter-feed li::after {
+	color: #8D6E63;
+}
+.single-post .comment-list .comment-heading {
+	color: #8D6E63;
+}
+.sidebar-widget .text-widget.address li i {
+	color: #8D6E63;
+}
+.about-icon .title a {
+	color: #8D6E63;
+}
+.team-member .author a {
+	color: #8D6E63;
+}
+.schedule-tab .nav-tabs li a {
+	color: #8D6E63;
+}
+.cd-timeline-img i {
+	color: #8D6E63;
+}
+.cd-timeline-content:hover .timeline-title {
+	color: #8D6E63;
+}
+.cd-timeline-meta i {
+	color: #8D6E63 ;
+}
+.schedule-box:hover .schedule-details .title a {
+	color: #8D6E63;
+}
+.table-schedule tbody tr td .name {
+	color: #8D6E63;
+}
+.event-facilities .overlay .title {
+	color: #8D6E63;
+}
+.footer-contact-form .btn:hover {
+	color: #8D6E63 !important;
+}
+.footer .footer-widget ul li a:hover,
+.footer .footer-widget ul li a:hover i,
+.footer .footer-widget  a.post-title:hover {
+	color: #8D6E63 !important;
+}
+/* border-color */
+.btn-colored.btn-theme-colored {
+	border: 2px solid #8D6E63 !important;
+}
+.btn-default.btn-theme-colored {
+	border: 2px solid #8D6E63 !important;
+}
+.line-bottom:after {
+	border: 1px solid #8D6E63;
+}
+.pagination li a:hover,
+.pagination li:hover a,
+.pagination li.active a,
+.pagination li.active a:hover {
+	border: 1px solid #8D6E63;
+}
+.progress-item .progress-bar .percent {
+	border: 2px solid #8D6E63;
+}
+.owl-theme .owl-dots .owl-dot span {
+	border: 2px solid #8D6E63;
+}
+.footer .footer-widget .line-bottom:after {
+	border: 1px solid #8D6E63;
+}
+ .booking-form .form-control:focus, 
+ .booking-form form select:focus, 
+ .booking-form form textarea:focus {
+ 	border-color: #8D6E63;
+ }
+.event:hover {
+	border-color: #8D6E63;
+}
+.schedule-tab .nav-tabs li.active a:after {
+	border-color: #8D6E63 transparent;
+}
+.cd-timeline-block:hover .cd-timeline-content {
+	border-color: #8D6E63;
+}
+.cd-timeline-block:hover .cd-timeline-content::before {
+	border-color: transparent #8D6E63 transparent transparent;
+}
+.footer .social-icons li a:hover {
+	border-color: #8D6E63;
+}
+/* border-left-color */
+blockquote {
+	border-left: 3px solid #8D6E63;
+}
+/* border-top-color */
+.menuzord.green .menuzord-menu > li.active > a, 
+.menuzord.green .menuzord-menu > li:hover > a {
+  border-top-color: #8D6E63;
+}
+.menuzord .menuzord-menu ul.dropdown, .menuzord .menuzord-menu .megamenu {
+	border-top: 3px solid #8D6E63;
+}
+/* border-right-color */
+.border-right-green {
+	border-right: 1px solid #8D6E63;
+}
+/* border-bottom-color */
+.border-bottom {
+	border-bottom: 1px solid #8D6E63;
+}
+.event {
+	border-bottom-color: #8D6E63;
+}
+.schedule-box:hover .schedule-details {
+	border-bottom: 1px solid #8D6E63;
+}
+/* box-shadow */

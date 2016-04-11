@@ -1,0 +1,130 @@
+
+    
+      <div class="page-content-wrapper ">
+        <!-- START PAGE CONTENT -->
+        <div class="content">
+            <div class="container-fluid container-fixed-lg sm-p-l-20 sm-p-r-20">
+              <div class="inner" style="transform: translateY(0px); opacity: 1;">
+                <!-- START BREADCRUMB -->
+                <ul class="breadcrumb">
+                  <li>
+                    <a href="<?=HTTP_ROOT?>admin">Home</a>
+                  </li>
+                  <li><a class="active" href="#">Events</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+         
+			<div class="container-fluid container-fixed-lg bg-white">
+            <!-- START PANEL -->
+            <div class="panel panel-transparent">
+              <div class="panel-heading">
+                <div class="panel-title">Search
+                </div>
+                <div class="search-events-nav">
+                <div class="btn-group dropdown-default"> <a href="#" data-toggle="dropdown" class="btn dropdown-toggle" style="width: 139px;" aria-expanded="false"> Default <span class="caret"></span> </a>
+                          <ul class="dropdown-menu " style="width: 139px;">
+                            <li><a href="#">Action</a>
+                            </li>
+                            <li><a href="#">Helvetica</a>
+                            </li>
+                            <li><a href="#">SegeoUI</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                <div class="btn-group pull-right m-b-10">
+                  <a href="<?=HTTP_ROOT?>admin/events/addevent" class="btn btn-primary btn-cons m-b-10"><i class="pg-form"></i> <span class="bold">Add Event</span>
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="panel-body">
+                <div class="table-responsive">
+                  <table class="table table-hover" id="basicTable">
+                    <thead>
+                      <tr>
+                        <!-- NOTE * : Inline Style Width For Table Cell is Required as it may differ from user to user
+											Comman Practice Followed
+											-->
+                        <th style="width:1%">
+                          <!--<button class="btn"><i class="pg-trash"></i>
+                          </button>-->
+						  <div class="checkbox ">
+                            <input type="checkbox" value="3" id="checkbox1">
+                            <label for="checkbox1"></label>
+                          </div>
+                        </th>
+                        <th style="width:15%">Title</th>
+                        <th style="width:15%">Event Description</th>
+                        <th style="width:15%">Start Date</th>
+                        <th style="width:15%">End Date</th>
+                        <th style="width:15%">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+					<?php foreach($events as $key=>$value){ ?>
+                      <tr>
+                        <td class="v-align-middle">
+                          <div class="checkbox ">
+                            <input type="checkbox" value="3" id="checkbox1">
+                            <label for="checkbox1"></label>
+                          </div>
+                        </td>
+                        <td class="v-align-middle ">
+                          <p><?=$value->event_name?></p>
+                        </td>
+                        <td class="v-align-middle">
+                          <p><?=$value->event_desc?></p>
+                        </td>
+                        <td class="v-align-middle">
+                          <p><?=$value->start_date_time?></p>
+                        </td>
+                        <td class="v-align-middle">
+                          <p><?=$value->end_date_time?></p>
+                        </td>
+                        <td class="v-align-middle">
+						  <a href="#" title="Edit Event">
+							<span class="glyphicon glyphicon-pencil"></span>
+						  </a>
+                          <a href="#" title="Delete Event">
+							<span class="glyphicon glyphicon-trash"></span>
+						 </a>
+                        
+                        </td>
+                      </tr>
+                    <?php }?> 
+                    </tbody>
+                  </table>
+                </div>
+				<div class="tile-footer dvd dvd-top">
+					<div class="row">
+						<div class="col-sm-3">
+							<small class="text-muted">
+							  <?php echo __('showing');?> <?=($this->Paginator->params()['page']*$this->Paginator->params()['limit'])-($this->Paginator->params()['limit']-1)?>-<?=($this->Paginator->params()['page']-1)*$this->Paginator->params()['limit']+$this->Paginator->params()['current']?><?php echo __('of');?><?=$this->Paginator->params()['count']?> <?php echo __('items');?>
+							</small>
+						</div>
+						<div id="msg-pages" style="float:right;" class="col-sm-4 text-right">
+
+						  <ul class="pagination pagination-sm m-0">
+						     <?php
+                                echo $this->Paginator->prev(__('prev'), array('tag' => 'li'), null, array('tag' => 'li','class' => 'disabled','disabledTag' => 'a'));
+                                echo $this->Paginator->numbers(array('separator' => '','currentTag' => 'a', 'currentClass' => 'active','tag' => 'li','first' => 1));
+                                echo $this->Paginator->next(__('next'), array('tag' => 'li','currentClass' => 'disabled'), null, array('tag' => 'li','class' => 'disabled','disabledTag' => 'a'));
+                            ?>
+						  </ul>
+					   </div>
+					</div>
+				</div>
+              </div>
+			  
+            </div>
+            <!-- END PANEL -->
+          </div>
+          </div>
+          <!-- END CONTAINER FLUID -->
+        </div>
+        
+    
+  

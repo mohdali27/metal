@@ -1,0 +1,273 @@
+/* --------------------------------------
+@Author: ThemeMascot
+@URL: http://themeforest.net/user/ThemeMascot
+
+COLOR : Lemon 
+COLOR CODE: #7FC719
+----------------------------------------- */
+
+/* text selection color */
+*::-moz-selection {
+	background-color: #7FC719;
+} 
+::selection {
+	background-color: #7FC719;
+}
+/* background-color-transparent */
+.bg-theme-colored-transparent {
+	background-color: rgba(127,199,25,0.7) !important;
+}
+.post .entry-meta.meta-absolute {
+	background: rgba(127,199,25,0.9) none repeat scroll 0 0;
+}
+.about-icon:hover .icon {
+	box-shadow: 0 0 0 6px rgba(127,199,25,0.4);
+}
+.header .navbar-dark {
+	background-color: rgba(127,199,25,0.95);
+}
+/* Layeroverlay */
+.layer-overlay.overlay-green::before {
+	background-color: rgba(127,199,25,0.9);
+}
+/* background-color */
+.btn-colored.btn-theme-colored {
+	background: #7FC719!important;
+}
+.title-icon::before {
+	background: #7FC719 none repeat scroll 0 0;
+}
+.title-icon::after {
+	background: #7FC719 none repeat scroll 0 0;
+}
+.menuzord.green .menuzord-menu > li.active > a, 
+.menuzord.green .menuzord-menu > li:hover > a, 
+.menuzord.green .menuzord-menu ul.dropdown li:hover > a,
+.menuzord-menu > li > .megamenu .megamenu-row li:hover > a,
+.menuzord-menu > li > .megamenu .megamenu-row .post a:hover {
+	background: #7FC719;
+}
+.panel-title a.active::after {
+    background: #7FC719;
+}
+.pagination li a:hover,
+.pagination li:hover a,
+.pagination li.active a,
+.pagination li.active a:hover {
+	background: none repeat scroll 0 0 #7FC719;
+}
+ .masonry-items .masonry-item:hover .overlay i {
+	background: #7FC719 none repeat scroll 0 0;
+}
+.sidebar .search-form .search-button {
+	background: #7FC719 none repeat scroll 0 0;
+}
+.sidebar-widget .tags a:hover {
+	background: #7FC719 none repeat scroll 0 0;
+}
+.schedule-tab .nav-tabs li.active a {
+	background: #7FC719;
+}
+.cd-timeline-block:hover .cd-timeline-img {
+	background: #7FC719;
+}
+.progress-item .progress-bar {
+	background: #7FC719;
+}
+.social-icons.icon-theme-colored a {
+	background: #7FC719;
+}
+.social-icons.icon-theme-colored a:hover {
+	background: #7FC719;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: #7FC719;
+}
+.footer .social-icons li a:hover {
+	background: #7FC719;
+}
+.btn-colored.btn-theme-colored:hover {
+	background: #90c000 !important;
+}
+.cssload-loading i {
+	background: #7FC719;
+}
+.bg-theme-colored {
+	background-color: #7FC719 !important;
+}
+.about-icon .icon {
+	background-color: #7FC719;
+}
+.post .entry-content .entry-date {
+	background-color: #7FC719;
+}
+.team-member .social-icons {
+    background-color: #7FC719;
+}
+.schedule-box .thumb .overlay a:hover i {
+	background-color: #7FC719;
+}
+.table-schedule thead tr {
+	background-color:  #7FC719;
+}
+.zeus .tp-bullet::after {
+	background-color: #7FC719;
+}
+.footer .footer-widget .social-icons li a:hover {
+	background-color: #7FC719;
+}
+/* text color */
+.text-theme-colored {
+	color: #7FC719 !important;
+}
+ul.list li:before {
+	color: #7FC719;
+}
+.list-default li i {
+	color: #7FC719;
+}
+.btn-default.btn-theme-colored {
+	color: #7FC719!important;
+}
+.section-title .sub-title {
+	color: #7FC719;
+}
+.title-icon [class^="flaticon-"]::after, 
+.title-icon [class^="flaticon-"]::before {
+	color: #7FC719;
+}
+.funfact .animate-number {
+	color: #7FC719;
+}
+.pricing-table .table-price {
+	color: #7FC719;
+}
+.pricing-table .table-list i {
+	color: #7FC719;
+}
+.horizontal-tab-centered .nav-pills > li > a:hover i, 
+.horizontal-tab-centered .nav-pills > li.active > a i, 
+.horizontal-tab-centered .nav-pills > li.active > a:hover i, 
+.horizontal-tab-centered .nav-pills > li.active > a:focus i {
+	color: #7FC719; 
+}
+.testimonial-carousel .content .author {
+	color: #7FC719;
+}
+.twitter-widget .twitter-feed li::after {
+	color: #7FC719;
+}
+.single-post .comment-list .comment-heading {
+	color: #7FC719;
+}
+.sidebar-widget .text-widget.address li i {
+	color: #7FC719;
+}
+.about-icon .title a {
+	color: #7FC719;
+}
+.team-member .author a {
+	color: #7FC719;
+}
+.schedule-tab .nav-tabs li a {
+	color: #7FC719;
+}
+.cd-timeline-img i {
+	color: #7FC719;
+}
+.cd-timeline-content:hover .timeline-title {
+	color: #7FC719;
+}
+.cd-timeline-meta i {
+	color: #7FC719 ;
+}
+.schedule-box:hover .schedule-details .title a {
+	color: #7FC719;
+}
+.table-schedule tbody tr td .name {
+	color: #7FC719;
+}
+.event-facilities .overlay .title {
+	color: #7FC719;
+}
+.footer-contact-form .btn:hover {
+	color: #7FC719 !important;
+}
+.footer .footer-widget ul li a:hover,
+.footer .footer-widget ul li a:hover i,
+.footer .footer-widget  a.post-title:hover {
+	color: #7FC719 !important;
+}
+/* border-color */
+.btn-colored.btn-theme-colored {
+	border: 2px solid #7FC719 !important;
+}
+.btn-default.btn-theme-colored {
+	border: 2px solid #7FC719 !important;
+}
+.line-bottom:after {
+	border: 1px solid #7FC719;
+}
+.pagination li a:hover,
+.pagination li:hover a,
+.pagination li.active a,
+.pagination li.active a:hover {
+	border: 1px solid #7FC719;
+}
+.progress-item .progress-bar .percent {
+	border: 2px solid #7FC719;
+}
+.owl-theme .owl-dots .owl-dot span {
+	border: 2px solid #7FC719;
+}
+.footer .footer-widget .line-bottom:after {
+	border: 1px solid #7FC719;
+}
+ .booking-form .form-control:focus, 
+ .booking-form form select:focus, 
+ .booking-form form textarea:focus {
+ 	border-color: #7FC719;
+ }
+.event:hover {
+	border-color: #7FC719;
+}
+.schedule-tab .nav-tabs li.active a:after {
+	border-color: #7FC719 transparent;
+}
+.cd-timeline-block:hover .cd-timeline-content {
+	border-color: #7FC719;
+}
+.cd-timeline-block:hover .cd-timeline-content::before {
+	border-color: transparent #7FC719 transparent transparent;
+}
+.footer .social-icons li a:hover {
+	border-color: #7FC719;
+}
+/* border-left-color */
+blockquote {
+	border-left: 3px solid #7FC719;
+}
+/* border-top-color */
+.menuzord.green .menuzord-menu > li.active > a, 
+.menuzord.green .menuzord-menu > li:hover > a {
+  border-top-color: #7FC719;
+}
+.menuzord .menuzord-menu ul.dropdown, .menuzord .menuzord-menu .megamenu {
+	border-top: 3px solid #7FC719;
+}
+/* border-right-color */
+.border-right-green {
+	border-right: 1px solid #7FC719;
+}
+/* border-bottom-color */
+.border-bottom {
+	border-bottom: 1px solid #7FC719;
+}
+.event {
+	border-bottom-color: #7FC719;
+}
+.schedule-box:hover .schedule-details {
+	border-bottom: 1px solid #7FC719;
+}
+/* box-shadow */
